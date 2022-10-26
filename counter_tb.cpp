@@ -41,9 +41,9 @@ int main(int argc, char **argv, char **env){
 
         top->rst = (i <2) | (i == 15); 
     
-        top->en = vbdFlag();
+        top->en = 1;
         
-        
+       
         
         
     
